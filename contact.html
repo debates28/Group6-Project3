@@ -27,54 +27,74 @@
               </li>
             </ul>
             <div>
-            <a class="btn btn-outline-light" role="button" href="/contact.html">Contact</a>
+            <button type="button" class="btn btn-outline-light">Contact</button>
             </div>
           </div>
         </div>
     </nav>
 
-    <div class="container-fluid heroImage text-center">
-        <div class="row"></div>
-            <h1 class="text-light">Luxury Redefined.</h1>
-    </div>
-    
-    <div class="container-fluid text-center containerUX">
-        <div class="row me-5 ms-5">
-            <h2>Expierence Personal Comfort.</h2>
-            <div class="prototype-card col-lg-2 col-md-12 col-sm-12">
-                <div class="prototype-conent">
-                    <img class="img-fluid mb-5" src="/images/iphone.png">
-                </div>
-            </div>
-            <div class="prototype-card col-lg-10 col-md-12 col-sm-12">
-                <div class="prototype-conent">
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container-fluid containerContact">
+    <div class="row">
+        <form class="row g-3">
+            <div class="col-6">
+                <label for="inputState" class="form-label">Question Type</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-lg-6">
 
-    <div class="container-fluid containerAbout">
-        <div class="row ms-5 me-5">
-            <h2>Ultimate Comfort.</h2>
-            <div class="comfort-text col-lg-12 col-md-12 col-sm-12">
-                <div class="comfort-text">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis eget velit aliquet sagittis. Id leo in vitae turpis massa sed elementum tempus.</h3>
-                </div>
+              </div>
+            <div class="col-6">
+              <label for="inputFirstName4" class="form-label">First Name</label>
+              <input type="firstName" class="form-control" id="inputFirstName4">
+            </div>
+            <div class="col-6">
+              <label for="inputLastName4" class="form-label">Last Name</label>
+              <input type="lastName" class="form-control" id="inputLastName4">
+            </div>
+            <div class="col-6">
+                <label for="inputFirstName4" class="form-label">Email Address</label>
+                <input type="firstName" class="form-control" id="inputFirstName4" placeholder="jappleseed@example.com">
+              </div>
+              <div class="col-6">
+                <label for="inputState" class="form-label">Country</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            <div class="col-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-2">
+              <label for="inputZip" class="form-label">Zip Code</label>
+              <input type="text" class="form-control" id="inputZip">
             </div>
             <div>
-                <button type="button" class="btn btn-outline-light btn-lg mb-5">Read More</button>
+            <label for="inputState" class="form-label">Question/Comment</label>
+            <textarea class="row col-8 ms-1" rows="8"> Type your message here....</textarea>
             </div>
-        </div>
+            <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Subscribe to our weekly newsletter?
+                  </label>
+                </div>
+              </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
     </div>
+</div>
 
     <div class="container-fluid containerFooter">
-        <footer class="py-5">
-          <div class="row ms-5 me-5">
+        <footer class="py-5 ms-5 me-5">
+          <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-2">
                 <img class="img-fluid" src="/images/lussoLogo.svg">
             </div>
