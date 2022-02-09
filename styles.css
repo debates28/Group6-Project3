@@ -51,6 +51,7 @@ body h4 {
     background-position: center;
     background-repeat: none;
     background-size: cover;
+    height: 91.4vh;
 }
 
 .containerUX li {
@@ -89,6 +90,17 @@ nav li a:hover {
     background-position: center;
     background-repeat: none;
     background-size: cover;
+}
+
+.containerInterior {
+    background-image: url(images/background2.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.containerCar {
+    background-color: black !important;
 }
 
 hr {
