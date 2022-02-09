@@ -1,0 +1,57 @@
+.navbar ul {
+    margin: auto;
+}
+
+.heroImage {
+    background-image: url(images/heroCar.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 91.4vh;
+}
+
+body h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 67.34px;
+    margin-top: 400px;
+}
+
+body h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 50.52px;
+    margin-bottom: 100px;
+    margin-top: 50px !important;
+}
+
+body h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 37.90px;
+    margin-bottom: 100px;
+}
+
+.containerUX {
+    background-image: url(images/background1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.containerUX li {
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 50.52px;
+}
+
+.prototype-conent ul {
+    margin-top: 125px;
+}
+
+.containerAbout {
+    background-color: black !important;
+}
+
