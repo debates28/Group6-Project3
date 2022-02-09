@@ -10,6 +10,11 @@
     height: 91.4vh;
 }
 
+.nav-item {
+    font-family: 'Manrope', sans-serif;
+    font-size: 21.33px;
+}
+
 body h1{
     font-family: 'Manrope', sans-serif;
     font-size: 67.34px;
