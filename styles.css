@@ -68,3 +68,9 @@ body h3 {
     background-repeat: none;
     background-size: cover;
 }
+
+nav li a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 8px;
+}
