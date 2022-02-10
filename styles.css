@@ -110,3 +110,15 @@ hr {
     width: 50%;
     margin: 0 auto;
 }
+
+.containerCarbon {
+    background-image: url(images/background1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.containerCarbon img {
+    margin-top: 100px;
+}
+
