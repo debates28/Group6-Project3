@@ -53,6 +53,10 @@ body h4 {
     background-size: cover;
 }
 
+.containerUX h3 {
+    margin-top: 60px;
+}
+
 .containerUX li {
     font-family: 'Manrope', sans-serif;
     font-weight: normal;
