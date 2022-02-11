@@ -53,6 +53,10 @@ body h4 {
     background-size: cover;
 }
 
+.containerUX h3 {
+    margin-top: 60px;
+}
+
 .containerUX li {
     font-family: 'Manrope', sans-serif;
     font-weight: normal;
@@ -91,6 +95,17 @@ nav li a:hover {
     background-size: cover;
 }
 
+.containerInterior {
+    background-image: url(images/background2.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.containerCar {
+    background-color: black !important;
+}
+
 hr {
     background-color: grey;
     list-style: rounded;
@@ -100,32 +115,47 @@ hr {
     margin: 0 auto;
 }
 
+.containerCarbon {
+    background-image: url(images/background1.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.containerCarbon img {
+    margin-top: 100px;
+}
+
+.info-card-content {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 600px) {
 
-.mb-5 {
-    width: 100%;
-}
-.heroImage {
-    background-image: url(images/mobileCar.png);
-}
-
-body h1 {
-    margin-top: 25%;
-}
-
-.col-5 {
-    width: auto !important;
-}
-
-}
-
-
-@media only screen and (max-width: 768px) {
-
-.heroImage {
-    background-image: url(images/tabletCar.png);
-}
-
-}
+    .mb-5 {
+        width: 100%;
+    }
+    .heroImage {
+        background-image: url(images/mobileCar.png);
+    }
+    
+    body h1 {
+        margin-top: 25%;
+    }
+    
+    .col-5 {
+        width: auto !important;
+    }
+    
+    }
+    
+    
+    @media only screen and (max-width: 768px) {
+    
+    .heroImage {
+        background-image: url(images/tabletCar.png);
+    }
