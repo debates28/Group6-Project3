@@ -165,14 +165,24 @@ hr {
         margin-bottom: auto !important;
     }
 
+    .mt-5 {
+        margin-top: 0px !important;
+    }
+
     .img-fluid {
         margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .prototype-conent {
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
     
     }
     
     
-    @media only screen and (max-width: 820px) {
+    @media only screen and (max-width: 912px) {
     
     .heroImage {
         background-image: url(/images/tabletCar.png);
