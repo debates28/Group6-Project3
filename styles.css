@@ -16,15 +16,15 @@
 }
 
 body h1{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 67.34px;
     margin-top: 300px;
 }
 
 body h2 {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: normal;
-    color: white;
+    color: #f8f4f7;
     font-size: 50.52px;
     margin-bottom: 100px;
     margin-top: 50px !important;
@@ -33,7 +33,7 @@ body h2 {
 body h3 {
     font-family: 'Manrope', sans-serif;
     font-weight: normal;
-    color: white;
+    color: #f8f4f7;
     font-size: 37.90px;
     margin-bottom: 50px;
 }
@@ -41,7 +41,7 @@ body h3 {
 body h4 {
     font-family: 'Manrope', sans-serif;
     font-weight: normal;
-    color: white;
+    color: #f8f4f7;
     font-size: 21.33px;
     margin-bottom: 50px;
 }
@@ -60,7 +60,7 @@ body h4 {
 .containerUX li {
     font-family: 'Manrope', sans-serif;
     font-weight: normal;
-    color: white;
+    color: #f8f4f7;
     font-size: 21.33px;
 }
 
@@ -70,11 +70,11 @@ body h4 {
 
 .containerFooter {
     background-color: black !important;
-    color: white;
+    color: #f8f4f7;
 }
 
 .containerContact {
-    color: white;
+    color: #f8f4f7;
     background-image: url(images/backgroundContact.png);
     background-position: center;
     background-repeat: none;
@@ -88,7 +88,7 @@ nav li a:hover {
 }
 
 .containerTestimonial {
-    color: white;
+    color:#f8f4f7;
     background-image: url(images/background3.png);
     background-position: center;
     background-repeat: none;
@@ -96,14 +96,15 @@ nav li a:hover {
 }
 
 .containerInterior {
-    background-image: url(images/background2.png);
+    background-color: black!important;
+    /* background-image: url(images/background2.png); */
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 .containerCar {
-    background-color: black !important;
+    background: linear-gradient(to top, #29002E, #F8F4F7), url(/images/background2.png) no-repeat  top center;
 }
 
 hr {
@@ -157,6 +158,10 @@ hr {
     @media only screen and (max-width: 820px) {
     
     .heroImage {
+        background-image: url(images/tabletCar.png);
+    }
+    }
         background-image: url(images/tabletCar.png); 
     }
 }
+
