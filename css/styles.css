@@ -47,7 +47,7 @@ body h4 {
 }
 
 .containerUX {
-    background-image: url(/images/background1.png);
+    background-image: url(../images/background1.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;
