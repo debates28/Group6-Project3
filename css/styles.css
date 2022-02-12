@@ -149,7 +149,24 @@ hr {
     }
     
     .col-5 {
-        width: auto !important;
+        width: 90% !important;
+    }
+
+    .ms-5 {
+        margin-left: auto !important;
+    }
+
+    .me-5 {
+        margin-right: auto !important;
+
+    }
+
+    .mb-5 {
+        margin-bottom: auto !important;
+    }
+
+    .img-fluid {
+        margin-bottom: 5%;
     }
     
     }
@@ -159,6 +176,11 @@ hr {
     
     .heroImage {
         background-image: url(/images/tabletCar.png);
+    }
+
+    .info-card-content {
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
