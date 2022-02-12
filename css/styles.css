@@ -178,6 +178,10 @@ hr {
         margin-bottom: 5%;
         margin-top: 5%;
     }
+
+    .col-8 {
+        width: 100%;
+    }
     
     }
     
