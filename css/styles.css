@@ -189,7 +189,7 @@ hr {
     @media only screen and (max-width: 912px) {
     
     .heroImage {
-        background-image: url(/images/tabletCar.png);
+        background-image: url(images/tabletCar.png);
     }
 
     .info-card-content {
