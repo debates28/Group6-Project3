@@ -3,7 +3,7 @@
 }
 
 .heroImage {
-    background-image: url(/images/heroCar.png);
+    background-image: url(../images/heroCar.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -75,7 +75,7 @@ body h4 {
 
 .containerContact {
     color: #f8f4f7;
-    background-image: url(/images/backgroundContact.png);
+    background-image: url(../images/backgroundContact.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -89,7 +89,7 @@ nav li a:hover {
 
 .containerTestimonial {
     color:#f8f4f7;
-    background-image: url(/images/background3.png);
+    background-image: url(../images/background3.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -104,7 +104,7 @@ nav li a:hover {
 }
 
 .containerCar {
-    background: linear-gradient(to top, #29002E, #F8F4F7), url(images/background2.png) no-repeat  top center;
+    background: linear-gradient(to top, #29002E, #F8F4F7), url(../images/background2.png) no-repeat  top center;
 }
 
 hr {
@@ -141,7 +141,7 @@ hr {
         width: 100%;
     }
     .heroImage {
-        background-image: url(images/mobileCar.png);
+        background-image: url(../images/mobileCar.png);
     }
     
     body h1 {
@@ -189,7 +189,7 @@ hr {
     @media only screen and (max-width: 912px) {
     
     .heroImage {
-        background-image: url(images/tabletCar.png);
+        background-image: url(../images/tabletCar.png);
     }
 
     .info-card-content {
